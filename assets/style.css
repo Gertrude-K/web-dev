@@ -1,0 +1,122 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+nav{
+    background-color: #123456;
+    padding: 20px;
+    text-align: center;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    font-size: 16px;
+}
+
+.hero{
+    background-color: #282828;
+    color:white;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.hero h1{
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.hero p{
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.hero button{
+    background-color: #f39c12;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    margin-top: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.columns {
+  display: grid; /*grid container arranges the grid items*/ 
+  grid-template-columns: repeat(3,1fr);/* or repeat(3,1fr) or :1fr,1fr,1fr  */
+  color: white;
+}
+
+.card {
+    padding: 80px;
+    text-align: center;
+    background: #123456;
+    border: 1px solid #99c;
+    border:none;
+  }
+
+.card p{
+    line-height: 1.5;
+}
+.hero-contact{
+    background-color: rgb(56, 79, 79);
+    color: white;
+    text-align: center;
+    padding: 50px 45px;
+}
+.hero-contact h1{
+    font-size: 35px;
+    
+}
+.hero-contact p{
+    font-size: 16px;
+}
+.main-section{
+    display: flex;
+    gap:50px;
+    padding:45px;
+}
+
+.info,
+.form{
+    background-color: rgb(56, 79, 79);
+    flex:1;
+    border-radius: 8px;
+    padding: 40px;
+    color:white;
+    text-align: center;
+}
+
+.info img{
+   width:100%;
+   height:330px;
+}
+
+label{
+    display:block;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    font-family: inherit; /* inputs ignore the body font unless told to inherit */
+    font-size: 1rem;
+}
+
+.form button{
+    margin-top: 30px;
+    background-color: #f39c12;
+    border-radius: 8px;
+    padding:30px;
+    color:black;
+    border: 2px solid black;
+    font-size: 16px;
+}
